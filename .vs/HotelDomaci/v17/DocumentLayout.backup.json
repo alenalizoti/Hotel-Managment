@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alena\\Desktop\\HotelDomaci\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\alena\\desktop\\hoteldomaci\\hoteldomaci\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\alena\\desktop\\hoteldomaci\\hoteldomaci\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\alena\\desktop\\hoteldomaci\\hoteldomaci\\data\\apartmanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\data\\apartmanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\alena\\desktop\\hoteldomaci\\hoteldomaci\\models\\apartman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\models\\apartman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelDomaci\\appsettings.json",
+              "ToolTip": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\appsettings.json",
+              "RelativeToolTip": "HotelDomaci\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T16:19:08.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Apartman.cs",
+              "DocumentMoniker": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\Models\\Apartman.cs",
+              "RelativeDocumentMoniker": "HotelDomaci\\Models\\Apartman.cs",
+              "ToolTip": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\Models\\Apartman.cs",
+              "RelativeToolTip": "HotelDomaci\\Models\\Apartman.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:17:58.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApartmanService.cs",
+              "DocumentMoniker": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\Data\\ApartmanService.cs",
+              "RelativeDocumentMoniker": "HotelDomaci\\Data\\ApartmanService.cs",
+              "ToolTip": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\Data\\ApartmanService.cs",
+              "RelativeToolTip": "HotelDomaci\\Data\\ApartmanService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:15:13.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\Program.cs",
+              "RelativeDocumentMoniker": "HotelDomaci\\Program.cs",
+              "ToolTip": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\Program.cs",
+              "RelativeToolTip": "HotelDomaci\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T16:11:29.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
