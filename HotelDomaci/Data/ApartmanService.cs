@@ -39,7 +39,73 @@ namespace HotelDomaci.Data
         {
             await _apartmani.DeleteOneAsync(a => a.Id == id);
         }
+        public async Task UbaciTestApartmane()
+        {
+            if (_apartmani.Find(ap => true).Any())
+            {
+                return;
+            }
 
+            var apartmani = new List<Apartman>
+            {
+                new Apartman
+                {
+                    NazivApartmana = "Sunčani Apartman",
+                    Drzava = "Srbija",
+                    Grad = "Beograd",
+                    UdaljenostOdCentra = 2.5,
+                    CenaPoNocenju = 45,
+                    OpisApartmana = "Moderno opremljen apartman u centru.",
+                    BrojMesta = 2,
+                    ServisneUsluge = new ServisneUsluge
+                    {
+                        Klima = true,
+                        Wifi = true,
+                        Frizider = false,
+                        Sef = true
+                    },
+                    Slike = new List<string> { "slika1.jpg", "slika2.jpg" }
+                },
+                new Apartman
+                {
+                    NazivApartmana = "Planinski Raj",
+                    Drzava = "Srbija",
+                    Grad = "Zlatibor",
+                    UdaljenostOdCentra = 1.0,
+                    CenaPoNocenju = 60,
+                    OpisApartmana = "Prelep pogled na planine.",
+                    BrojMesta = 4,
+                    ServisneUsluge = new ServisneUsluge
+                    {
+                        Klima = true,
+                        Wifi = true,
+                        Frizider = false,
+                        Sef = true
+                    },
+                    Slike = new List<string> { "slika2.jpg" }
+                },
+                new Apartman
+                {
+                    NazivApartmana = "Apartman Lux",
+                    Drzava = "Hrvatska",
+                    Grad = "Split",
+                    UdaljenostOdCentra = 0.5,
+                    CenaPoNocenju = 80,
+                    OpisApartmana = "Luksuzan apartman na obali.",
+                    BrojMesta = 3,
+                    ServisneUsluge = new ServisneUsluge
+                    {
+                        Klima = true,
+                        Wifi = true,
+                        Frizider = false,
+                        Sef = true
+                    },
+                    Slike = new List<string> { "slika3.jpg" }
+                }
+            };
+
+            await _apartmani.InsertManyAsync(apartmani);
+        }
     }
     public class MongoDbSettings
     {

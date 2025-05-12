@@ -599,23 +599,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alena\\.nuget\\packages\\": {},
+    "C:\\Users\\user85001\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\HotelDomaci.csproj",
+      "projectUniqueName": "C:\\Users\\user85001\\OneDrive\\Desktop\\HotelDomaci\\Hotel-Domaci\\HotelDomaci\\HotelDomaci.csproj",
       "projectName": "HotelDomaci",
-      "projectPath": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\HotelDomaci.csproj",
-      "packagesPath": "C:\\Users\\alena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\obj\\",
+      "projectPath": "C:\\Users\\user85001\\OneDrive\\Desktop\\HotelDomaci\\Hotel-Domaci\\HotelDomaci\\HotelDomaci.csproj",
+      "packagesPath": "C:\\Users\\user85001\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user85001\\OneDrive\\Desktop\\HotelDomaci\\Hotel-Domaci\\HotelDomaci\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\alena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user85001\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -624,7 +624,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

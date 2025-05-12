@@ -33,6 +33,13 @@ catch (Exception ex)
 
 var app = builder.Build();
 
+
+using (var scope = app.Services.CreateScope())
+{
+    var apartmanService = scope.ServiceProvider.GetRequiredService<ApartmanService>();
+    apartmanService.UbaciTestApartmane();
+}
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
