@@ -1,0 +1,28 @@
+﻿@model List<HotelDomaci.Models.Apartman>
+
+@{
+    ViewData["Title"] = "Lista apartmana";
+}
+
+<h1>Lista apartmana</h1>
+
+<div class="container mt-4">
+    @foreach (var apartman in Model)
+    {
+        <div class="card mb-4" style="width: 100%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            @if (apartman.Slike != null && apartman.Slike.Count > 0)
+            {
+
+                <img class="card-img-top" src="~/images/@apartman.Slike.FirstOrDefault()" alt="Slika apartmana" style="height: 300px; object-fit: cover; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+
+            }
+            <div class="card-body">
+                <h3 class="card-title"><a class="text-dark text-decoration-none card-link" asp-action="Details" asp-route-id="@apartman.Id">@apartman.NazivApartmana</a></h3>
+                <p class="card-text"><strong>Država:</strong> @apartman.Drzava</p>
+                <p class="card-text"><strong>Grad:</strong> @apartman.Grad</p>
+                <p class="card-text"><strong>Cena po noćenju:</strong> @apartman.CenaPoNocenju €</p>
+            </div>
+        </div>
+    }
+
+</div>

@@ -64,7 +64,7 @@ namespace HotelDomaci.Data
                         Frizider = false,
                         Sef = true
                     },
-                    Slike = new List<string> { "slika1.jpg", "slika2.jpg" }
+                    Slike = new List<string> { "slika1.jpg", "slika3.jpg" }
                 },
                 new Apartman
                 {
@@ -82,7 +82,7 @@ namespace HotelDomaci.Data
                         Frizider = false,
                         Sef = true
                     },
-                    Slike = new List<string> { "slika2.jpg" }
+                    Slike = new List<string> { "slika3.jpg" }
                 },
                 new Apartman
                 {
@@ -100,7 +100,7 @@ namespace HotelDomaci.Data
                         Frizider = false,
                         Sef = true
                     },
-                    Slike = new List<string> { "slika3.jpg" }
+                    Slike = new List<string> { "slika4.jpg" }
                 }
             };
 
