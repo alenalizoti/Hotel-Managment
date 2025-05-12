@@ -17,5 +17,10 @@ namespace HotelDomaci.Controllers
             await _apartmanService.UbaciTestApartmane();
             return RedirectToAction("Index");
         }
+        public async Task<IActionResult> Index()
+        {
+            var apartmani = await _apartmanService.GetAsync();
+            return View(apartmani);
+        }
     }
 }
