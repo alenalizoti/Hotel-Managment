@@ -1,0 +1,69 @@
+﻿@model HotelDomaci.Models.Apartman
+@{
+    ViewData["Title"] = "Kreiranje apartmana";
+}
+
+<h2 class="text-center">Kreirajte apartman</h2>
+
+
+<form method="post" enctype="multipart/form-data" asp-action="Create">
+     <div class="form-group">
+        <label asp-for="@Model.NazivApartmana">Naziv</label>
+        <input class="form-control" type="text" asp-for="@Model.NazivApartmana" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.OpisApartmana">Opis</label>
+        <input class="form-control" type="text" asp-for="@Model.OpisApartmana" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.Drzava">Država</label>
+        <input class="form-control" type="text" asp-for="@Model.Drzava" />
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Grad">Grad</label>
+        <input class="form-control" type="text" asp-for="@Model.Grad" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.UdaljenostOdCentra">Udaljenost od centra</label>
+        <input class="form-control" type="number" asp-for="@Model.UdaljenostOdCentra" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.BrojMesta">Broj mesta</label>
+        <input class="form-control" type="text" asp-for="@Model.BrojMesta" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="@Model.CenaPoNocenju">Cena po noćenju</label>
+        <input class="form-control" type="text" asp-for="@Model.CenaPoNocenju" />
+    </div>
+
+    <div class="form-group">
+        <h4>Dodaj nove slike</h4>
+        <input type="file" name="NoveSlike" multiple />
+    </div>
+
+    <div class="form-group">
+        <label>Servisne Usluge</label>
+        <div>
+            <input type="checkbox" asp-for="@Model.ServisneUsluge.Klima" /> Klima
+        </div>
+        <div>
+            <input type="checkbox" asp-for="@Model.ServisneUsluge.Wifi" /> Wifi
+        </div>
+        <div>
+            <input type="checkbox" asp-for="@Model.ServisneUsluge.Frizider" /> Frizider
+        </div>
+        <div>
+            <input type="checkbox" asp-for="@Model.ServisneUsluge.Sef" /> Sef
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center mt-4 mb-5">
+        <button type="submit" class="btn btn-primary ">Sacuvaj</button>
+    </div>
+
+</form>

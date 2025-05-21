@@ -4,7 +4,11 @@
     ViewData["Title"] = "Lista apartmana";
 }
 
+
 <h1>Lista apartmana</h1>
+<div class="d-flex justify-content-center mt-3">
+    <a asp-action="Create" class="btn btn-primary d-flex align-items-center">Dodaj novi +</a>
+</div>
 
 <div class="container mt-4">
     @foreach (var apartman in Model)
