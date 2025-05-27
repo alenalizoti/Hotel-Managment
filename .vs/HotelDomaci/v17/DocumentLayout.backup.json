@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Desktop\\projekat2025\\Hotel-Domaci\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\views\\apartman\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\views\\apartman\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\controllers\\apartmancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\controllers\\apartmancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\views\\apartman\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\views\\apartman\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\views\\apartman\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\views\\apartman\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\views\\apartman\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\views\\apartman\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\controllers\\apartmancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\controllers\\apartmancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\views\\apartman\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\views\\apartman\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\data\\apartmanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\data\\apartmanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|solutionrelative:hoteldomaci\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A668BFB9-E627-4C29-9968-AFB0A3BF4BF2}|HotelDomaci\\HotelDomaci.csproj|c:\\users\\pc\\onedrive\\desktop\\projekat2025\\hotel-domaci\\hoteldomaci\\models\\apartman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Desktop\\projekat2025\\Hotel-Domaci\\HotelDomaci\\Views\\Apartman\\Details.cshtml",
               "RelativeDocumentMoniker": "HotelDomaci\\Views\\Apartman\\Details.cshtml",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Desktop\\projekat2025\\Hotel-Domaci\\HotelDomaci\\Views\\Apartman\\Details.cshtml",
               "RelativeToolTip": "HotelDomaci\\Views\\Apartman\\Details.cshtml",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAgwGgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAQwHsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-27T12:39:38.359Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Desktop\\projekat2025\\Hotel-Domaci\\HotelDomaci\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "HotelDomaci\\Controllers\\HomeController.cs",
@@ -75,11 +75,12 @@
               "RelativeToolTip": "HotelDomaci\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T20:24:09.14Z"
+              "WhenOpened": "2025-05-21T20:24:09.14Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Desktop\\projekat2025\\Hotel-Domaci\\HotelDomaci\\Views\\Apartman\\Create.cshtml",
               "RelativeDocumentMoniker": "HotelDomaci\\Views\\Apartman\\Create.cshtml",
@@ -87,8 +88,7 @@
               "RelativeToolTip": "HotelDomaci\\Views\\Apartman\\Create.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAEwAkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T20:18:09.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T20:18:09.123Z"
             },
             {
               "$type": "Document",
@@ -100,19 +100,21 @@
               "RelativeToolTip": "HotelDomaci\\Views\\Apartman\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T21:15:39.876Z"
+              "WhenOpened": "2025-05-12T21:15:39.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ApartmanController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Desktop\\projekat2025\\Hotel-Domaci\\HotelDomaci\\Controllers\\ApartmanController.cs",
               "RelativeDocumentMoniker": "HotelDomaci\\Controllers\\ApartmanController.cs",
               "ToolTip": "C:\\Users\\PC\\OneDrive\\Desktop\\projekat2025\\Hotel-Domaci\\HotelDomaci\\Controllers\\ApartmanController.cs",
               "RelativeToolTip": "HotelDomaci\\Controllers\\ApartmanController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAlwEcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAhwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T21:00:36.931Z"
+              "WhenOpened": "2025-05-12T21:00:36.931Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -140,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ApartmanService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Desktop\\projekat2025\\Hotel-Domaci\\HotelDomaci\\Data\\ApartmanService.cs",
               "RelativeDocumentMoniker": "HotelDomaci\\Data\\ApartmanService.cs",

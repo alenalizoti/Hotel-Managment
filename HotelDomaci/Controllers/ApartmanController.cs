@@ -71,5 +71,17 @@ namespace HotelDomaci.Controllers
             return View(apartman);
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(string id)
+        {
+            var apartman = await _apartmanService.GetAsync(id);
+            if (apartman == null) return NotFound();
+
+            await _apartmanService.DeleteAsync(id);
+
+            return RedirectToAction("Index");
+        }
+
     }
 }
