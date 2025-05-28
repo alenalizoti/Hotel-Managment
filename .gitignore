@@ -1,14 +1,11 @@
-# Visual Studio
 .vs/
-*.user
-*.suo
-
-# Build output
 bin/
 obj/
+*.user
+*.suo
+*.cache
 *.dll
 *.exe
 *.pdb
-
-# Rider
-.idea/
+*.log
+*.tmp

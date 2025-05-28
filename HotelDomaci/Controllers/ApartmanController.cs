@@ -31,12 +31,6 @@ namespace HotelDomaci.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> Details(string id)
-        {
-            var apartman = await _apartmanService.GetAsync(id);
-            if (apartman == null) return NotFound();
-            return View(apartman);
-        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -68,6 +62,24 @@ namespace HotelDomaci.Controllers
             }
 
             await _apartmanService.CreateAsync(model);
+            return RedirectToAction("Index");
+        }
+        public async Task<IActionResult> Details(string id)
+        {
+            var apartman = await _apartmanService.GetAsync(id);
+            if (apartman == null) return NotFound();
+            return View(apartman);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(string id)
+        {
+            var apartman = await _apartmanService.GetAsync(id);
+            if (apartman == null) return NotFound();
+
+            await _apartmanService.DeleteAsync(id);
+
             return RedirectToAction("Index");
         }
 
