@@ -92,12 +92,6 @@ C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\compressed\0voam
 C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets\msbuild.HotelDomaci.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets\msbuild.HotelDomaci.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets\msbuild.build.HotelDomaci.props
-C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.HotelDomaci.props
-C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.HotelDomaci.props
-C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets.pack.json
 C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\HotelDom.C83EA7D7.Up2Date
 C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\HotelDomaci.dll
@@ -319,3 +313,4 @@ C:\Users\Ranko MAAN\Desktop\HotelDomacii\Hotel-Domaci\HotelDomaci\obj\Debug\net9
 C:\Users\Ranko MAAN\Desktop\HotelDomacii\Hotel-Domaci\HotelDomaci\obj\Debug\net9.0\HotelDomaci.pdb
 C:\Users\Ranko MAAN\Desktop\HotelDomacii\Hotel-Domaci\HotelDomaci\obj\Debug\net9.0\HotelDomaci.genruntimeconfig.cache
 C:\Users\Ranko MAAN\Desktop\HotelDomacii\Hotel-Domaci\HotelDomaci\obj\Debug\net9.0\ref\HotelDomaci.dll
+C:\Users\alena\Desktop\HotelDomaci\HotelDomaci\obj\Debug\net9.0\staticwebassets.build.json.cache
