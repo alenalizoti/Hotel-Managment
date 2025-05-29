@@ -19,15 +19,5 @@
     "C:\\Users\\alena\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\alena\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problem reading the cache file C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\HotelDomaci.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\alena\\Desktop\\HotelDomaci\\HotelDomaci\\HotelDomaci.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

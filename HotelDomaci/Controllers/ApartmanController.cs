@@ -83,5 +83,68 @@ namespace HotelDomaci.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Edit(string id)
+        {
+            var apartman = await _apartmanService.GetAsync(id);
+            if (apartman == null)
+                return NotFound();
+
+            return View(apartman);
+
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(string id, Apartman apartmanIzForme, List<string> SlikeZaBrisanje, List<IFormFile> NoveSlike)
+        {
+            var apartman = await _apartmanService.GetAsync(id);
+            if (apartman == null)
+            {
+                return NotFound();
+            }
+            apartman.NazivApartmana = apartmanIzForme.NazivApartmana;
+            apartman.OpisApartmana = apartmanIzForme.OpisApartmana;
+            apartman.Drzava = apartmanIzForme.Drzava;
+            apartman.Grad = apartmanIzForme.Grad;
+            apartman.UdaljenostOdCentra = apartmanIzForme.UdaljenostOdCentra;
+            apartman.BrojMesta = apartmanIzForme.BrojMesta;
+            apartman.CenaPoNocenju = apartmanIzForme.CenaPoNocenju;
+            apartman.ServisneUsluge = apartmanIzForme.ServisneUsluge;
+
+            if (SlikeZaBrisanje != null && SlikeZaBrisanje.Any())
+            {
+                apartman.Slike = apartman.Slike.Where(s => !SlikeZaBrisanje.Contains(s)).ToList();
+
+                foreach (var slikaZaBrisanje in SlikeZaBrisanje)
+                {
+                    var filePath = Path.Combine(_webHostEnvironment.WebRootPath, "images", slikaZaBrisanje);
+                    if (System.IO.File.Exists(filePath))
+                    {
+                        System.IO.File.Delete(filePath);
+                    }
+                }
+            }
+
+            if (NoveSlike != null && NoveSlike.Any())
+            {
+                foreach (var slika in NoveSlike)
+                {
+                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(slika.FileName);
+                    var path = Path.Combine(_webHostEnvironment.WebRootPath, "images", fileName);
+
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await slika.CopyToAsync(stream);
+                    }
+
+                    apartman.Slike.Add(fileName);
+                }
+            }
+            await _apartmanService.UpdateAsync(id, apartman);
+
+            return RedirectToAction("Index");
+        }
+
     }
 }
