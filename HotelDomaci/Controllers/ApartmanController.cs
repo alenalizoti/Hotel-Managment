@@ -1,5 +1,6 @@
 ﻿using HotelDomaci.Data;
 using HotelDomaci.Models;
+using HotelDomaci.Models.ViewModel;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,10 +22,30 @@ namespace HotelDomaci.Controllers
             await _apartmanService.UbaciTestApartmane();
             return RedirectToAction("Index");
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? SearchTerm, string? SortOrder)
         {
             var apartmani = await _apartmanService.GetAsync();
-            return View(apartmani);
+            if (!string.IsNullOrEmpty(SearchTerm))
+            {
+                apartmani = apartmani
+                 .Where(a => !string.IsNullOrEmpty(a.NazivApartmana) && a.NazivApartmana.Contains(SearchTerm))
+                 .ToList();
+            }
+            apartmani = SortOrder switch
+            {
+                "naziv_desc" => apartmani.OrderByDescending(a => a.NazivApartmana).ToList(),
+                "cena_asc" => apartmani.OrderBy(a => a.CenaPoNocenju).ToList(),
+                "cena_desc" => apartmani.OrderByDescending(a => a.CenaPoNocenju).ToList(),
+                _ => apartmani.OrderBy(a => a.NazivApartmana).ToList()
+            };
+
+            var viewModel = new Filter
+            {
+                SortOrder = SortOrder,
+                SearchTerm = SearchTerm,
+                Apartmani = apartmani
+            };
+            return View(viewModel);
         }
         [HttpGet]
         public IActionResult Create()

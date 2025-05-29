@@ -1,17 +1,26 @@
-﻿@model List<HotelDomaci.Models.Apartman>
+﻿@model HotelDomaci.Models.ViewModel.Filter
 
 @{
     ViewData["Title"] = "Lista apartmana";
 }
 
-
 <h1>Lista apartmana</h1>
+<form method="get" asp-controller="Apartman" asp-action="Index">
+    <input type="text" name="SearchTerm" value="@Model.SearchTerm" placeholder="Pretraga po nazivu" />
+    <select name="SortOrder">
+        <option value="">Sortiraj po nazivu (A-Z)</option>
+        <option value="naziv_desc" selected="@("naziv_desc" == Model.SortOrder)">Naziv (Z-A)</option>
+        <option value="cena_asc" selected="@("cena_asc" == Model.SortOrder)">Cena (rastuce)</option>
+        <option value="cena_desc" selected="@("cena_desc" == Model.SortOrder)">Cena (opadajuce)</option>
+    </select>
+    <button class="btn btn-primary" type="submit">Filtriraj</button>
+</form>
 <div class="d-flex justify-content-center mt-3">
     <a asp-action="Create" class="btn btn-primary d-flex align-items-center">Dodaj novi +</a>
 </div>
 
 <div class="container mt-4">
-    @foreach (var apartman in Model)
+    @foreach (var apartman in Model.Apartmani)
     {
         <div class="card mb-4" style="width: 100%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
             @if (apartman.Slike != null && apartman.Slike.Count > 0)

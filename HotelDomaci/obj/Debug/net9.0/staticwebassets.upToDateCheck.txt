@@ -3,6 +3,7 @@ wwwroot\favicon.ico
 wwwroot\images\56831608-ba9d-4272-b137-1ac8c385a0da.png
 wwwroot\images\63f4a70b-a8e6-4f8c-9bcb-1a8fcae98303.png
 wwwroot\images\860efa8a-555d-442f-b5ba-03b2e723f064.jpg
+wwwroot\images\e018f94a-ddcb-4f3c-8944-0335c16069aa.png
 wwwroot\images\riso-2.1.png
 wwwroot\images\slika3.jpg
 wwwroot\images\slika4.jpg
